@@ -22,7 +22,7 @@ main{
 .container{
     max-width: 1200px;
     margin: 0 auto;
-    border: 1px solid black;
+
 }
 
 .flex{
@@ -30,14 +30,22 @@ main{
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
+
 }
 ul{
     list-style:none;
+}
+li{
+    padding: 0 10px;
 }
 /* Header */
 header{
     background-color: var(--bg-header);
     color: var(--primary-color);
+    padding: 10px 0;
+}
+.section-logo img{
+    max-width: 150px;
 }
 
 /* Footer */
