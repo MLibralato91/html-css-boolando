@@ -105,9 +105,11 @@ header{
     font-size: 3rem;
     padding: 0 15px;
 }
-.red-h{
+.red-h:hover{
     color: var(--sales-color);
+    cursor: pointer;
 }
+
 .black-h{
     color: var(--bg-footer);
 }
