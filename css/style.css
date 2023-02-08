@@ -55,16 +55,28 @@ header{
 }
 .card{
     position: relative;
+    font-size: .9rem;
+    font-weight: 700;
 }
-.sales-red{
-    background-color: var(--sales-color);
+.sales{
     color: var(--primary-color);
-    padding: 2px 10px;
+    padding: 4px 10px;
     position: absolute;
-    bottom: 30px;
-    left: 10px;
-
 }
+.red{
+    background-color: var(--sales-color);
+    bottom: 40px;
+    left: 10px;
+}
+.green-red{
+    background-color: var(--sostenibilty);
+}
+.green{
+    background-color: var(--sostenibilty);
+    bottom: 40px;
+    left: 70px;
+}
+
 
 /* Footer */
 footer{
