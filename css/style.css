@@ -67,6 +67,7 @@ header{
 .card img{
     max-width: 400px;
     padding: 0 10px;
+
 }
 .card{
     position: relative;
@@ -77,6 +78,7 @@ header{
     color: var(--primary-color);
     padding: 4px 10px;
     position: absolute;
+    z-index: 100;
 }
 .red{
     background-color: var(--sales-color);
@@ -104,14 +106,30 @@ header{
     top: 20px;
     font-size: 3rem;
     padding: 0 15px;
+    z-index: 100;
 }
 .red-h:hover{
     color: var(--sales-color);
     cursor: pointer;
 }
-
 .black-h{
     color: var(--bg-footer);
+}
+.card{
+    position: relative;
+    display: inline-block;
+}
+
+.card .change {
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.card:hover .change {
+    display: inline;
 }
 /* Footer */
 footer{
