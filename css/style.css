@@ -98,13 +98,18 @@ header{
 }
 
 .heart{
-    color: var(--bg-footer);
     background-color: var(--primary-color);
     position: absolute;
     right: 10px;
     top: 20px;
     font-size: 3rem;
     padding: 0 15px;
+}
+.red-h{
+    color: var(--sales-color);
+}
+.black-h{
+    color: var(--bg-footer);
 }
 /* Footer */
 footer{
