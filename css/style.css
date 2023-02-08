@@ -76,7 +76,12 @@ header{
     bottom: 40px;
     left: 70px;
 }
-
+.box-card{
+    padding-bottom: 50px;
+}
+.text{
+    padding-left: 10px;
+}
 
 /* Footer */
 footer{
