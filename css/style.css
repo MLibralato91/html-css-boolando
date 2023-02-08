@@ -35,7 +35,10 @@ main{
 ul{
     list-style:none;
 }
-li{
+.cart-list li{
+    padding: 0 10px;
+}
+.sex-list li{
     padding: 0 10px;
 }
 /* Header */
@@ -100,4 +103,13 @@ header{
 footer{
     background-color: var(--bg-footer);
     color: var(--primary-color);
+}
+
+.info{
+    padding: 20px 0;
+}
+.list-social{
+    padding-top: 10px;
+    font-size: 1rem;
+
 }
