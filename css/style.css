@@ -77,12 +77,21 @@ header{
     left: 70px;
 }
 .box-card{
-    padding-bottom: 50px;
+    padding-top: 50px;
 }
 .text{
     padding-left: 10px;
 }
 
+.heart{
+    color: var(--bg-footer);
+    background-color: var(--primary-color);
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    font-size: 3rem;
+    padding: 0 15px;
+}
 /* Footer */
 footer{
     background-color: var(--bg-footer);
