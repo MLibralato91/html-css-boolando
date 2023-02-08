@@ -48,7 +48,12 @@ header{
     max-width: 150px;
 }
 /* Main */
-
+.row-top{
+    padding-top: 50px;
+}
+.row-bot{
+    padding: 50px 0;
+}
 .card img{
     max-width: 400px;
     padding: 0 10px;
@@ -76,9 +81,8 @@ header{
     bottom: 40px;
     left: 70px;
 }
-.box-card{
-    padding-top: 50px;
-}
+
+
 .text{
     padding-left: 10px;
 }
