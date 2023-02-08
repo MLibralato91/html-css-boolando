@@ -18,6 +18,7 @@
 main{
     font-family: 'Noto Sans', sans-serif;
     font-family: 'Roboto', sans-serif;
+
 }
 .container{
     max-width: 1200px;
@@ -45,14 +46,20 @@ ul{
 header{
     background-color: var(--bg-header);
     color: var(--primary-color);
-    padding: 10px 0;
 }
 .section-logo img{
     max-width: 150px;
 }
+.nav-fixed{
+    position: fixed;
+    width: 100%;
+    background-color: var(--bg-header);
+    z-index: 1000;
+    padding: 5px 0;
+}
 /* Main */
 .row-top{
-    padding-top: 50px;
+    padding-top: 100px;
 }
 .row-bot{
     padding: 50px 0;
