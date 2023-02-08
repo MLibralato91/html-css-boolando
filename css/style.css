@@ -1,0 +1,25 @@
+/* General */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --bg-header: #ff6900;
+    --primary-color: #ffffff;
+    --sales-color: #ff0000;
+    --sostenibilty: #008000;
+    --bg-footer: #1a1a1a;
+
+}
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+header{
+    background-color: orange;
+}
