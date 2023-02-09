@@ -28,7 +28,7 @@ main{
 
 .flex{
     display: flex;
-    flex-flow: row nowrap;
+    flex-flow: row wrap;
     justify-content: space-between;
     align-items: center;
 
@@ -67,7 +67,6 @@ header{
 .card img{
     max-width: 400px;
     padding: 0 10px;
-
 }
 .card{
     position: relative;
@@ -98,7 +97,13 @@ header{
 .text{
     padding-left: 10px;
 }
-
+.red-tex{
+    color: var(--sales-color);
+    font-weight: bold;
+}
+.cross-test{
+    text-decoration: line-through;
+}
 .heart{
     background-color: var(--primary-color);
     position: absolute;
