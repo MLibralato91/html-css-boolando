@@ -38,9 +38,14 @@ ul{
 }
 .cart-list li{
     padding: 0 10px;
+ 
 }
 .sex-list li{
     padding: 0 10px;
+}
+a{
+    text-decoration: none;
+    color: var(--primary-color);
 }
 /* Header */
 header{
@@ -59,6 +64,7 @@ header{
     box-shadow: 0px 8px 15px -3px rgba(0,0,0,0.2);
 
 }
+
 /* Main */
 .row-top{
     padding-top: 100px;
